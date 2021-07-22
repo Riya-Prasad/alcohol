@@ -44,6 +44,14 @@ html, body{
     display: flex;
 }
 
+.prev{
+    margin-right: 15px;
+}
+
+.next{
+    margin-left: 15px;
+}
+
 button{
     color: #fff;
     background: transparent;
@@ -95,7 +103,7 @@ button:hover{
     z-index: 1;
     position: fixed;
     height: 100vh;
-    width: 20%;
+    width: 20.01%;
     left: 5%;
     background: rgba(0, 0, 0, .65);
 }
